@@ -1,0 +1,56 @@
+.footer-wrapper{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+.ft-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.f-heading{
+    margin: 1.5rem 0rem 0.5rem 0rem;
+    font-family: auto;
+    font-weight: bolder;
+}
+.createdBy{
+    width: 22%;
+}
+.go{
+    width: 10%;
+}
+.go-body h6:hover{
+    cursor: pointer;
+    color: #fa005e;
+}
+.about{
+    width: 30%;
+    
+}
+.about-body{
+    margin-left: 10px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 36px;
+}
+/* .ic{
+    font-size: 36px;
+} */
+.copyright{
+    text-align: center;
+    margin-top: 12px;
+    color: #000000;
+}
+
+@media screen and (max-width:600px) {
+    .ft-content{
+        flex-direction: column;
+    }
+    .about ,
+    .go ,
+    .createdBy{
+        width: 100%;
+    }
+}
