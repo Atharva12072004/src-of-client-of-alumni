@@ -18,6 +18,8 @@ const navLinks = [
   { name: "Jobs", path: "/jobs" },
   { name: "NewsHub", path: "/news" },
   { name: "Polls", path: "/polls" },
+  { name: "AI Resume Analyser", path: "https://resume-five-psi-95.vercel.app" },
+  { name: " AI Interviewer", path: "https://major2-grjo.vercel.app" },
   { name: "About Us", path: "/about" },
 ];
 
